@@ -20,6 +20,12 @@ nav > ul > li{
     padding: 5px 10px;
 }
 
+nav > ul > li::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 nav > ul > li:not(:last-child){
     margin-right: 40px;
 }
@@ -28,6 +34,7 @@ li a{
     text-decoration: none;
     color: grey;
 }
+
 
 .box-hover{
     display: none;
